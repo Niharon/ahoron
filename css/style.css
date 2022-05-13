@@ -20,9 +20,9 @@
 }
 
 body {
-  background: url("../assets/mamun-srizon-qay3lNDSHzc-unsplash.jpg");
+  /* background: url("../assets/mamun-srizon-qay3lNDSHzc-unsplash.jpg");
   background-position: start;
-  background-size: 100% 120vh;
+  background-size: 100% 120vh; */
   /* background-size: cover; */
   background-repeat: no-repeat;
   /* height: 100vh;
@@ -34,6 +34,31 @@ body {
   align-items: center;
 }
 
+#mother_home {
+  background: url("../assets/mamun-srizon-qay3lNDSHzc-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: start;
+  height: 120vh;
+  width: 100%;
+  top: 0;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 685px) {
+  #mother_home {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 684px) and (min-width: 300px) {
+  #mother_home {
+    height: 100vh;
+  }
+  .see_more_btn {
+    margin-top: 40px;
+  }
+}
+
 @media screen and (max-width: 686px) {
   body {
     background-size: 220% 100vh;
@@ -42,7 +67,6 @@ body {
 
 #nav_mother {
   background-color: transparent;
-
   position: sticky;
   top: 0px;
 }
@@ -117,6 +141,7 @@ body {
 
 #home_section {
   width: 80%;
+  margin: 0 auto;
 }
 
 .home_heading {
