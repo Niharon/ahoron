@@ -24,7 +24,7 @@ const catHandler = (id) => {
 
     document.getElementById(`cat_${id}`).classList.remove('d-none');
     document.getElementById(`cat${id}`).classList.add('active_cat_btn');
-    for (let i = 1; i < 6; ++i) {
+    for (let i = 1; i < 7; ++i) {
         if (i != id) {
             document.getElementById(`cat_${i}`).classList.add('d-none');
             document.getElementById(`cat${i}`).classList.remove('active_cat_btn');
@@ -50,4 +50,8 @@ document.getElementById('cat4').addEventListener('click', () => {
 
 document.getElementById('cat5').addEventListener('click', () => {
     catHandler(5);
+})
+
+document.getElementById('cat6').addEventListener('click', () => {
+    catHandler(6);
 })
