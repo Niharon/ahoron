@@ -89,14 +89,14 @@ body {
 .nav_close_btn {
   display: none;
   height: 30px;
-  color: #ff9900;
+  color: #fbfbfb;
 }
 .nav_logo {
   display: none;
 }
 
 .nav_mother_scroll {
-  background-color: rgba(0, 0, 0, 0.9) !important;
+  background-color: rgb(255, 153, 0) !important;
 }
 
 .custom-nav div a {
@@ -121,7 +121,8 @@ body {
     position: absolute;
     top: 0px;
     right: 0px;
-    background-color: rgba(0, 0, 0, 0.9);
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    background-color: rgb(255, 153, 0, 0.9) !important;
     height: 105vh;
     width: 70%;
   }
@@ -222,6 +223,11 @@ button {
 
 .product_content {
   width: 60%;
+}
+
+.product_category_menu {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .category_btn {
