@@ -6,7 +6,7 @@
 }
 
 .big_title {
-  font-size: 100px;
+  font-size: 70px;
   font-weight: 700;
   color: #ff9900;
   font-family: Hind Siliguri;
@@ -103,7 +103,6 @@ body {
   margin: 0px 20px;
   text-decoration: none;
   color: white;
-
   font-family: Hind Siliguri;
 }
 
@@ -486,4 +485,47 @@ button {
 
 .niharon_logo img {
   margin-left: -9px;
+}
+
+/* honey_delivery */
+#honey_delivery {
+  width: 80%;
+}
+.grp_honey_img {
+  /* height: 500px;
+  width: 250px; */
+}
+.grp_honey_img img {
+  width: 100%;
+  margin-bottom: 50px;
+  border-radius: 30px;
+}
+
+/* money_receive */
+#money_receive {
+  width: 80%;
+}
+
+.paid_card {
+  height: 160px;
+  /* width: 250px; */
+  box-sizing: border-box;
+  border: 2px solid #ddd;
+  margin-bottom: 50px;
+  width: 80%;
+  /* text-align: center !important; */
+  margin: auto;
+}
+
+.paid_card img {
+  height: 50px;
+  width: 100px;
+  margin-top: 45px;
+}
+
+.row_center {
+  /* display: flex; */
+  justify-content: center;
+  align-items: start;
+  width: 100%;
 }
