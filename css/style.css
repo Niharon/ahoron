@@ -492,6 +492,7 @@ button {
 /* money_receive */
 #money_receive {
   width: 80%;
+  margin-top: 50px;
 }
 
 .paid_card {
