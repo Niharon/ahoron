@@ -25,47 +25,47 @@
   </head>
 
   <body>
-    <section id="mother_home">
-      <!-- |||||||||| NAVBAR |||||||||||||| -->
-      <div id="nav_mother" class="w-100 d-flex justify-content-center align-items-center">
-        <div class="custom-nav">
-          <!-- LOGO  -->
-          <div class="nav_logo">
-            <img height="60px" src="./assets/Logo-new.png" alt="" />
-          </div>
+    <div id="nav_mother" class="w-100 d-flex justify-content-center align-items-center">
+      <div class="custom-nav">
+        <!-- LOGO  -->
+        <div class="nav_logo">
+          <img height="60px" src="./assets/Logo-new.png" alt="" />
+        </div>
 
-          <!-- LINK  -->
-          <div class="custom_nav_links custom_nav_links_sm">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6 nav_close_btn"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-            <a href="#home_section">হোম</a>
-            <a href="#product_section">প্রোডাক্ট</a>
-            <a href="#benifits_section">উপকারিতা</a>
-            <a href="#award_section">অর্জন সমূহ</a>
-            <a href="#blog_section">ব্লগ সমূহ</a>
-            <a href="#footer">যোগাযোগ</a>
-          </div>
-
+        <!-- LINK  -->
+        <div class="custom_nav_links custom_nav_links_sm">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 nav_open_btn"
+            class="h-6 w-6 nav_close_btn"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
             stroke-width="2"
           >
-            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
+          <a href="#home_section">হোম</a>
+          <a href="#product_section">প্রোডাক্ট</a>
+          <a href="#benifits_section">উপকারিতা</a>
+          <a href="#award_section">অর্জন সমূহ</a>
+          <a href="#blog_section">ব্লগ সমূহ</a>
+          <a href="#footer">যোগাযোগ</a>
         </div>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6 nav_open_btn"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
       </div>
+    </div>
+    <section id="mother_home">
+      <!-- |||||||||| NAVBAR |||||||||||||| -->
 
       <!-- |||||||||| HOME |||||||||||||| -->
       <div id="home_section" class="d-flex flex-column justify-content-center align-items-center my-5">
@@ -88,7 +88,6 @@
         </div>
 
         <div class="see_more_btn mx-4">
-          <!-- <button>আরো দেখুন</button> -->
           <a style="background: #ff9900; color: #fff" class="btn" href="#product_section">আরো দেখুন</a>
         </div>
       </div>
@@ -96,11 +95,7 @@
 
     <!-- |||||||||| PRODUCT-SECTION |||||||||||||| -->
     <div class="w-100 d-flex justify-content-center align-items-center">
-      <div
-        id="product_section"
-        class="d-flex justify-content-center align-items-center"
-        style="margin-top: 100px; margin-bottom: 100px"
-      >
+      <div id="product_section" class="d-flex" style="margin-top: 100px; margin-bottom: 100px">
         <div class="product-heading">
           <p class="big_title">আমাদের প্রোডাক্টস</p>
           <p style="font-family: Hind Siliguri">
@@ -116,9 +111,9 @@
             <p id="cat1" class="category_btn active_cat_btn">খঁলিশা</p>
             <p id="cat2" class="category_btn">গরান</p>
             <p id="cat3" class="category_btn">বাইন</p>
-            <p id="cat6" class="category_btn">মিশ্র</p>
-            <p id="cat4" class="category_btn">কেওড়া</p>
-            <p id="cat5" class="category_btn">গেওয়া</p>
+            <p id="cat5" class="category_btn">অন্যান্য</p>
+            <p id="cat4" class="category_btn">আসন্ন</p>
+            <!-- <p id="cat5" class="category_btn">গেওয়া</p> -->
           </div>
 
           <!-- PRODUCT  -->
@@ -580,8 +575,12 @@
               মাধ্যমে সরাসরি সুন্দরবনের গহীন থেকে সম্পূর্ণ প্রাকৃতিক চাকের মধু সংগ্রহ এবং সংরক্ষন করা।
             </p>
 
-            <p style="">ইমেইল: info.ahoronbd@gmail.com</p>
-            <p style="">যোগাযোগ: ০১৭৪৫-৫৯৫৮২৫</p>
+            <p style="">
+              যোগাযোগ: <br />
+              ইমেইল: info.ahoronbd@gmail.com <br />
+              মোবাইল: ০১৭৪৫-৫৯৫৮২৫
+            </p>
+
             <div class="d-flex">
               <a target="_blank" href="https://www.facebook.com/ahoron33"
                 ><img style="width: 50px; margin: 0px 5px" src="./assets/facebook.png" alt=""

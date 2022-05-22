@@ -6,7 +6,7 @@
 }
 
 .big_title {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 700;
   color: #ff9900;
   font-family: Hind Siliguri;
@@ -15,7 +15,8 @@
 
 @media screen and (max-width: 686px) {
   .big_title {
-    font-size: 65px;
+    font-size: 48px;
+    line-height: 57px;
   }
 }
 
@@ -42,6 +43,7 @@ body {
   height: 120vh;
   width: 100%;
   top: 0;
+  margin-top: -80px;
 }
 
 @media screen and (max-width: 1000px) and (min-width: 685px) {
@@ -129,6 +131,7 @@ body {
   .nav_open_btn,
   .nav_logo {
     display: block;
+    cursor: pointer;
   }
   .nav_close_btn {
     display: flex;
@@ -218,6 +221,7 @@ button {
 
 .product-heading {
   width: 40%;
+  /* margin-top: -225px; */
 }
 
 .product_content {
@@ -228,51 +232,41 @@ button {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .category_btn {
   margin: 10px 20px;
   cursor: pointer;
 }
-
 .category_btn:hover {
   color: #ff9900;
 }
-
 .active_cat_btn {
   color: #ff9900;
   border-bottom: 1px solid #ff9900;
 }
-
 .product_category {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
 }
-
 .single_product {
   border: 1px solid #ff9900;
   border-radius: 8px;
 }
-
 @media screen and (max-width: 686px) {
   #product_section {
     flex-direction: column;
   }
-
   .product-heading {
     width: 100%;
   }
-
   .product_content {
     width: 100%;
     margin-top: 30px;
   }
-
   .category_btn {
     margin: 10px 12px;
   }
-
   .product_category {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -286,7 +280,6 @@ button {
     width: 100%;
     text-align: center;
   }
-
   .product_content {
     width: 100%;
     margin-top: 30px;
@@ -320,12 +313,10 @@ button {
   #benifits_section {
     flex-direction: column;
   }
-
   .benifit_content {
     width: 100%;
     padding: 0 !important;
   }
-
   .benifit_heading {
     margin-top: 20px;
     width: 100%;
@@ -335,11 +326,9 @@ button {
 #award_section {
   width: 80%;
 }
-
 .award_heading {
   width: 40%;
 }
-
 .award_content {
   width: 60%;
 }
@@ -349,7 +338,6 @@ button {
   #benifits_section {
     flex-direction: column;
   }
-
   .benifit_heading {
     width: 60%;
   }
@@ -508,13 +496,12 @@ button {
 
 .paid_card {
   height: 160px;
-  /* width: 250px; */
   box-sizing: border-box;
   border: 2px solid #ddd;
   margin-bottom: 50px;
   width: 80%;
-  /* text-align: center !important; */
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .paid_card img {
