@@ -312,6 +312,8 @@ button {
     line-height: 100px;
 } */
 
+#more {display: none;}
+
 @media screen and (max-width: 686px) {
   #benifits_section {
     flex-direction: column;
