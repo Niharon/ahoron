@@ -294,9 +294,12 @@ button {
 
 #benifits_section {
   width: 80%;
+  
 }
 .benifit_content {
   width: 60%;
+  vertical-align: top;
+  display: inline-block;
 }
 .benifit_heading {
   width: 40%;
