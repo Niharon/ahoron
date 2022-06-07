@@ -427,46 +427,6 @@ button {
   }
 }
 
-.footer_content {
-  display: flex;
-}
-
-.footer_content_section {
-  width: 60%;
-}
-
-.link_nav_width {
-  width: 100%;
-}
-
-.dev_section {
-  width: 100%;
-  /* align-items: flex-end; */
-}
-
-@media screen and (max-width: 686px) {
-  .footer_content {
-    flex-direction: column;
-  }
-  .niharon_logo {
-    width: 100%;
-    align-items: left;
-  }
-  .dev_section {
-    margin-top: 30px;
-    width: 100%;
-    align-items: flex-start;
-  }
-  .footer_content_section {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 500px) and (min-width: 300px) {
-  .niharon_logo img {
-    margin-left: -6px !important;
-  }
-}
 .niharon_logo img {
   margin-left: -9px;
 }
@@ -475,8 +435,6 @@ button {
   width: 80%;
 }
 .grp_honey_img {
-  /* height: 500px;
-  width: 250px; */
 }
 .grp_honey_img img {
   width: 100%;
@@ -503,17 +461,11 @@ button {
   width: 100px;
   margin-top: 45px;
 }
-.row_center {
-  /* display: flex; */
+/* .row_center {
   justify-content: center;
   align-items: start;
   width: 100%;
-}
-
-/* footer_part */
-.footer_link_btn a {
-  cursor: pointer;
-}
+} */
 
 /* footer_section_new */
 #footer_section {
@@ -525,12 +477,26 @@ button {
 p,
 a {
   font-family: Hind Siliguri;
+}
+
+#footer_section a {
+  color: #fff;
+}
+#footer_section p {
+  color: #fff;
+}
+#footer_section h3 {
   color: #fff;
 }
 
 .width_80 {
   margin-top: 100px;
 }
+
+.meet_owner a i {
+  font-size: 20px;
+}
+
 .link_list ul {
   padding: 0;
 }
