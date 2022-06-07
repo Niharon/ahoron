@@ -436,30 +436,27 @@ button {
 }
 
 .link_nav_width {
-  width: 44%;
+  width: 100%;
 }
 
 .dev_section {
-  width: 40%;
-  align-items: flex-end;
+  width: 100%;
+  /* align-items: flex-end; */
 }
 
 @media screen and (max-width: 686px) {
   .footer_content {
     flex-direction: column;
   }
-
   .niharon_logo {
     width: 100%;
     align-items: left;
   }
-
   .dev_section {
     margin-top: 30px;
     width: 100%;
     align-items: flex-start;
   }
-
   .footer_content_section {
     width: 100%;
   }
@@ -470,11 +467,9 @@ button {
     margin-left: -6px !important;
   }
 }
-
 .niharon_logo img {
   margin-left: -9px;
 }
-
 /* honey_delivery */
 #honey_delivery {
   width: 80%;
@@ -494,7 +489,6 @@ button {
   width: 80%;
   margin-top: 50px;
 }
-
 .paid_card {
   height: 160px;
   box-sizing: border-box;
@@ -504,16 +498,57 @@ button {
   margin: auto;
   margin-bottom: 20px;
 }
-
 .paid_card img {
   height: 50px;
   width: 100px;
   margin-top: 45px;
 }
-
 .row_center {
   /* display: flex; */
   justify-content: center;
   align-items: start;
   width: 100%;
+}
+
+/* footer_part */
+.footer_link_btn a {
+  cursor: pointer;
+}
+
+/* footer_section_new */
+#footer_section {
+  background: #484747;
+  width: 100%;
+  overflow: hidden;
+}
+#footer_section h3,
+p,
+a {
+  font-family: Hind Siliguri;
+  color: #fff;
+}
+
+.width_80 {
+  margin-top: 100px;
+}
+.link_list ul {
+  padding: 0;
+}
+.link_list ul li {
+  list-style-type: none;
+}
+.link_list ul li a {
+  text-decoration: none;
+}
+
+.niharon_logo {
+  width: 200px;
+}
+.niharon_logo img {
+  width: 100%;
+}
+
+.copyright_content p {
+  letter-spacing: 3px;
+  font-size: 12px;
 }
