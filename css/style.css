@@ -298,13 +298,13 @@ button {
 }
 
 .benifit_content {
-    width: 60%;
+    /* width: 60%; */
     vertical-align: top;
     display: inline-block;
 }
 
 .benifit_heading {
-    width: 40%;
+    /* width: 40%; */
 }
 
 
@@ -401,6 +401,20 @@ button {
     .award_category {
         grid-template-columns: repeat(1, 1fr);
     }
+    #honey_delivery {
+        flex-direction: column-reverse;
+    }
+    .dsply_uptop {
+        flex-direction: column-reverse;
+    }
+    .grp_honey_delrv {
+        width: 100%;
+    }
+    .modhu_deliv_cntnt {
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
 }
 
 @media screen and (max-width: 1100px) and (min-width: 685px) {
@@ -457,8 +471,8 @@ button {
 }
 
 .grp_honey_img {
-    /* height: 350px; */
-    /* width: 100%; */
+    height: 350px;
+    width: 50%;
 }
 
 .grp_honey_img img {
@@ -472,7 +486,7 @@ button {
 
 #money_receive {
     width: 80%;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .paid_card {
