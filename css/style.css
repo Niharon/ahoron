@@ -390,7 +390,7 @@ button {
 
 @media screen and (max-width: 686px) {
     #award_section {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .award_heading {
         width: 100%;
