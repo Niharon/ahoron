@@ -307,6 +307,15 @@ button {
     /* width: 40%; */
 }
 
+.benifit_img {
+    height: 300px;
+    width: 100%;
+}
+
+.benifit_img img {
+    width: 50%;
+}
+
 
 /* .benifit_heading_title {
     font-size: 95px;
@@ -320,13 +329,17 @@ button {
     display: none;
 }
 
-@media screen and (max-width: 686px) {
+@media screen and (max-width: 687px) {
     #benifits_section {
         flex-direction: column;
     }
     .benifit_content {
         width: 100%;
         padding: 0 !important;
+    }
+    .benifit_img {
+        justify-content: center !important;
+        margin-top: 100px;
     }
     .benifit_heading {
         margin-top: 20px;
@@ -349,7 +362,7 @@ button {
 
 /* responsive benifit */
 
-@media screen and (max-width: 1000px) and (min-width: 685px) {
+@media screen and (max-width: 1000px) and (min-width: 687px) {
     #benifits_section {
         flex-direction: column;
     }
@@ -471,8 +484,8 @@ button {
 }
 
 .grp_honey_img {
-    height: 350px;
-    width: 50%;
+    /* height: 350px; */
+    width: 100%;
 }
 
 .grp_honey_img img {
